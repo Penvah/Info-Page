@@ -1,0 +1,33 @@
+<body>
+
+   
+  
+  <div class = "Container" >
+    <table>
+      
+      <th>Name</th>
+      <th>Email</th>
+      <th>Username</th>
+      <th>Company</th>
+      <th>Address</th>
+      
+
+
+
+  <tr *ngFor="let item of list">
+      <td>{{item.name}}</td>
+      <td>{{item.email}}</td>
+      <td>{{item.username}}</td>
+      <td> {{item.company.name}}</td>
+      <td>{{item.address.street}}</td>
+      
+     
+      
+      
+    
+    
+  </tr>
+  </table></div> 
+
+</body>
+  
